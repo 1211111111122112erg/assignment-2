@@ -1,17 +1,14 @@
+* {
+    box-sizing:border-box;
+}
 
-
-
-img{
-    box-shadow: 5px 5px #ba3333;
+html {
+    font-family: helvetica;
 }
 
 .corgi-gallery{
     box-shadow: 5px 5px #00ff00;
     height: 183px
-}
-
-#special-pic{
-    box-shadow: 15px 15px skyblue;
 }
 
 .small {
@@ -21,9 +18,26 @@ img{
 .green{
     color: #00ff00;
 }
+
 .blue{
     border: 5px #0000ff solid;
 }
+
 .ha{
     font-family: cursive
 }
+
+img{
+    box-shadow: 5px 5px #ba3333;
+}
+
+#logo{
+    box-shadow: none;
+}
+
+#special-pic{
+    box-shadow: 15px 15px skyblue;
+}
+
+
+
